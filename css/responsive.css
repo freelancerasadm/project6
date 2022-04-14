@@ -1,0 +1,310 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media screen and (max-width:1350px){
+    .support-description{
+        width:200px;
+    }
+    section.support-and-service {
+        margin-top: 0px;
+    }
+    .project-single-box{
+        width:18%;
+    }
+    .project-single-box:hover .project-icon{
+        background: transparent;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:1200px){
+    .img-content {
+        top: 190px;
+    }
+}
+@media screen and (max-width:1180px){
+    .meetup-area{
+        padding-top:250px;
+    }
+}
+@media screen and (max-width:1140px){
+    .support-description{
+        width:140px;
+    }
+    .services-height:after{
+        top: 34px;
+        left: 104px;
+    }
+    .meetup-area{
+        padding-top:270px;
+    }
+    .project-icon{
+        padding:80px 0px;
+    }
+}
+@media screen and (max-width:992px){
+    .header-top-right-siderbar{
+        float: left;
+    }
+    .menu-bars{
+        display:block;
+        width: 32%;
+        float:left;
+        padding:16px 0px;
+        cursor:pointer;
+    }
+    .header-logo{
+        width:35%;
+        padding: 6px;
+    }
+    .menu{
+        width:100%;
+    }
+    .menu-icons{
+        width:35%;
+        display:none;
+    }
+    .displa-block-cls{
+        display:block;
+        width: 33%;
+    }
+    .header-logo a img{
+        width:200px;
+    }
+    .menu-social-icons::before{
+        background:transparent;
+    }
+    .main-menu{
+        background:white;
+        position:absolute;
+        width:100%;
+        padding:20px;
+        border-top:3px solid #021236;
+        display:none;
+    }
+    .main-menu-block{
+        display:block;
+    }
+    .main-menu li{
+        display:block;
+        line-height:30px;
+        padding:10px 0px;
+        border-bottom: 1px solid #a3989885;
+        position:relative;
+    }
+    .main-menu li:last-child{
+        border-bottom: 1px solid transparent;
+    }
+    .main-menu li:before{
+        content:'\f0dd';
+        font-family:fontAwesome;
+        position:absolute;
+        right: 0;
+        top:0;
+
+    }
+    .main-menu li a::after{
+        background:transparent;
+    }
+    .main-menu li a{
+        padding:0;
+    }
+    .sub-menu{
+        position:relative;
+        width:100%;
+        padding: 10px 20px;
+    }
+    .sub-menu li:before{
+        content:'';
+    }
+    .sub-menu li a:hover{
+        margin-left: 0;
+    }
+    .sub-menu li a:before{
+        background:transparent;
+    }
+    .main-menu li:hover .sub-menu{
+        display:none;
+    }
+    .search-area{
+        width:90%;
+    }
+    .slider-content h2{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    .slider-content p{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .slider-btn a:first-child{
+        font-size: 14px;
+    }
+    .slider-btn a:last-child{
+        font-size: 14px;
+    }
+    .slider-content{
+        padding: 20px 0px 30px 0px;
+    }
+    .support-description h5{
+        font-size: 15px;
+    }
+    .support-description p{
+        font-size: 11px;
+
+    }
+    .support-content{
+        width:100%;
+    }
+    .service-title h2{
+        font-size: 30px;
+    }
+    .services-height:after{
+        top: 34px;
+        left: 164px;
+    }
+    .idea-image{
+        width:100%;
+    }
+    .idea-image img{
+        min-height:300px;
+    }
+    .idea-content{
+        position:inherit;
+        top:0;
+    }
+    .idea-content{
+        width:100%;
+    }
+    .idea-left-icon{
+        margin-right:10px;
+    }
+    .idea-right-content h4{
+        font-size: 17px;
+    }
+    .idea-right-content p{
+        font-size: 14px;
+    }
+    .idea-right-content{
+        width:70%;
+    }
+    .meetup-area{
+        padding-top:60px;
+    }
+    .meet-top-button a{
+        float:left;
+    }
+    .meet-description p{
+        padding: 0px 0px 0px 0px;
+    }
+    .meetup-img-content{
+        width:50%;
+        left: 10%;
+    }
+    .meetup-image-box{
+        margin-bottom:120px;
+    }
+    .provide-title h2{
+        font-size: 35px;
+    }
+    .pt-full-width{
+        max-width:100%;
+    }
+    .work-bg:before{
+        background:inherit;
+        right:0;
+        top:0;
+    }
+    .meet-designs{
+        border:1px solid transparent;
+    }
+    .project-icon{
+        padding:60px 0px;
+    }
+    .project-single-box{
+        width:100%;
+        margin: auto;
+        height: 300px;
+    }
+    .project-single-box:hover .project-icon{
+        height: 300px;
+    }
+    .img-content {
+        top: 455px;
+    }
+}
+@media screen and (max-width:768px){
+    .header-top-bar{
+        display:none;
+    }
+    .header-logo{
+        padding: 16px;
+    }
+    .slider-content h2{
+        font-size: 35px;
+    }
+    .slider-content p{
+        font-size: 12px;
+    }
+    .slider-btn a:first-child{
+        font-size: 12px;
+    }
+    .slider-btn a:last-child{
+        font-size: 12px;
+    }
+    .support-single-box{
+        width:100%;
+    }
+    .support-content-box{
+        background:transparent;
+        padding:0;
+    }
+    .it-solution-title h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .service-title h2{
+        font-size: 22px;
+        margin-bottom: 10px;
+        line-height: 35px;
+    }
+    .services-height:after{
+        top: 34px;
+        left: 254px;
+    }
+    .meetup-img-content{
+        width:75%;
+        left: 10%;
+    }
+    .provide-title h2{
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom:10px;
+    }
+    .meetup-area {
+        padding-bottom: 80px;
+    }
+    .work-number {
+        left: 242px;
+    }
+    .work-bg:before{
+        background:inherit;
+        right:0;
+        top:0;
+    }
+    .img-content {
+        top: 355px;
+    }
+}
+@media screen and (max-width:578px){
+    .services-height:after{
+        top: 34px;
+        left: 225px;
+    }
+    .img-content {
+        top: 320px;
+    }
+}
